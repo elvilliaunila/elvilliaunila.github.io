@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="container mt-4">
+    <h1 class="text-center mb-4">
+        Hal Penting pada bulan April
+    </h1>
+    <div class="accordion" id="accordion1">
+        <div class="card" itemscope itemtype="https://schema.org/Event">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <div class="event-title float-left" itemprop="name">World Book Day</div>
+                        <div class="event-title float-right"> (Microdata)</div>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion1">
+                <div class="card-body">
+                    <div class="event-wrapper">
+                        Bulan <div class="event-date" itemprop="startDate" content="-04-23">23 April</div>
+                        event <div class="event-title" itemprop="name">World Book Day</div>
+                        berlokasi <div class="event-location" itemprop="location">universal</div>.
+                        <img class="event-location" itemprop="image"
+                            src="https://takaitu.id/wp-content/uploads/2018/04/world-book-day.jpg"
+                            alt="Book world-book-day" />
+                        <p class="event-description" itemprop="description">
+                            Mungkin tidak banyak yang tahu bahwa sehari setelah hari bumi, ada juga hari penting lainnya yaitu Hari Buku Sedunia yang dikenal juga dengan Hari Buku dan Hak Cipta Sedunia yang jatuh pada tanggal 23 April. UNESCO mencanangkan hari buku sedunia guna mempromosikan peran membaca dan hak cipta. Beberapa negara di  dunia merayakannya dengan bermacam-macam aktivitas literasi dan hak cipta. Dari mulai story telling, award untuk buku terbaik, sampai donasi buku bagi anak-anak kurang mampu, sering dilakukan pada hari buku ini.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" vocab="http://schema.org/" class="event-wrapper" typeof="Event">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapse2">
+                        <div class="event-title float-left" property="name">World Book Day</div>
+                        <div class="event-title float-right"> (RDFa)</div>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
+                <div class="card-body">
+                    <div>
+                        Bulan <div class="event-date" property="startDate" content="04-23">23 April</div>
+                        event <div class="event-title" property="name">World Book Day</div>
+                        berlokasi <div class="event-location" property="location">universal</div>.
+                        <img class="event-location" property="image"
+                            src="https://takaitu.id/wp-content/uploads/2018/04/world-book-day.jpg"
+                            alt="Book world-book-day" />
+                        <p class="event-description" property="description">
+                            Mungkin tidak banyak yang tahu bahwa sehari setelah hari bumi, ada juga hari penting lainnya yaitu Hari Buku Sedunia yang dikenal juga dengan Hari Buku dan Hak Cipta Sedunia yang jatuh pada tanggal 23 April. UNESCO mencanangkan hari buku sedunia guna mempromosikan peran membaca dan hak cipta. Beberapa negara di  dunia merayakannya dengan bermacam-macam aktivitas literasi dan hak cipta. Dari mulai story telling, award untuk buku terbaik, sampai donasi buku bagi anak-anak kurang mampu, sering dilakukan pada hari buku ini.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
